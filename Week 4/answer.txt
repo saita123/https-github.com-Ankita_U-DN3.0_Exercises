@@ -1,0 +1,20 @@
+Explore and document the new features introduced in Spring Boot 3.
+
+Spring Boot 3 is a major release of the Spring Boot framework, released in November 2022. It includes several new features, improvements and bug fixes:
+Java 17 baseline: Spring Boot 3 requires Java 17 or higher. This means you can take advantage of the latest features and performance improvements that Java 17 offers.
+Support for generating native images with GraalVM: GraalVM is a high-performance virtual machine that can be used to generate native images of your Spring Boot applications. This can significantly improve the performance of your applications, especially on startup.
+Improved observability with Micrometer and Micrometer Tracing: Micrometer is a library that provides a unified API for collecting metrics from your Spring Boot applications. Micrometer Tracing is a library that provides tracing support for your Spring Boot applications. These libraries make it easier to monitor and troubleshoot your applications.
+Support for Jakarta EE 10 with an EE 9 baseline: Jakarta EE 10 is the latest version of the Jakarta EE specification. Spring Boot 3 includes support for Jakarta EE 10, so you can now use Spring Boot to develop applications that are compliant with the Jakarta EE 10 specification.
+Spring Framework 6: Spring Boot 3 is based on Spring Framework 6, so it includes all of the new features and improvements that were introduced in Spring Framework 6.
+Spring Boot applications can be converted into a Native Image using GraalVM 22.3 or above.
+Images can be created using the native build tools Gradle/Maven plugins or the native-image tool provided by GraalVM. We can also create native images using the native-image Paketo build pack.
+Spring Boot 3 also works well and has been tested with JDK 19.
+Spring Boot 3 has migrated from Java JEE to Jakarta JEE APIs for almost all dependencies.
+Spring upgraded modules such as :
+Spring Security 6.0
+Spring Session 3.0
+Spring WS 4.0
+Spring Integration 6.0
+Spring Batch 5.0
+Spring Kafka 3.0
+Spring Data 2022.0
